@@ -1,4 +1,4 @@
-﻿int numberA = 80;
+/*int numberA = 80;
 int numberB = 7;
 int result = numberA + numberB;
 Console.WriteLine(result);
@@ -10,3 +10,4 @@ int numberB = new Random().Next(1, 10);
 Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
+*/
