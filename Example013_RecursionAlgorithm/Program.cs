@@ -1,15 +1,15 @@
-﻿//Двумерные или многомерные массивы.
-
-/* string[,] table = new string[2, 5];
+//Двумерные или многомерные массивы.
+/*
+string[,] table = new string[5, 5];
 // String.Empty
 // table [0,0] teble [0,1] table [0,2] table [0,4]
 // table [1,0] table [1,1] table [1,2] table [1,4]
-table[1, 2] = "слово";
-for (int rows = 0; rows < 2; rows++)
+table[0, 0] = String.Empty;
+for (int rows = 0; rows < 5; rows++)
 {
     for (int columns = 0; columns < 5; columns++)
     {
-        Console.Write($"-{table[rows, columns]}-");
+        Console.WriteLine($"-{table[rows, columns]}-");
     }
 
 }
@@ -105,14 +105,14 @@ FillImage(13,13);
 PrintImage(pic);
 */
 
-
+/*
 // Факториал
 // 5!=5*4*3*2*1
 //       5*4!
 //         4*3!
 //           3*2!
 
-/* int Factorial(int n)
+ int Factorial(int n)
 {
     //1!=1
     //0!=1
@@ -168,5 +168,4 @@ void MetodFibonacci()
 MetodFibonacci();
 Console.WriteLine();
 */
-
 
